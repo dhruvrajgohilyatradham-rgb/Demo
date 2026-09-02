@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.5, user-scalable=yes">
+  <title>YatraDham · Srisailam Destination Guide</title>
+  <!-- Font & Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600;14..32,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="page.css">
+</head>
+<body>
+
+  <!-- ===== STICKY NAV WITH SECTION LINKS ===== -->
+  <nav class="sticky-nav">
+    <div class="container nav-flex">
+      <div class="nav-logo">YatraDham</div>
+      <div class="nav-links">
+        <a href="#food"><i class="fas fa-utensils"></i> Food</a>
+        <a href="#transport"><i class="fas fa-bus"></i> Transport</a>
+        <a href="#temple-info"><i class="fas fa-om"></i> Temple</a>
+        <a href="#faq"><i class="fas fa-question-circle"></i> FAQ</a>
+        <a href="#services"><i class="fas fa-hand-holding-heart"></i> Services</a>
+      </div>
+      <a href="" target="_blank" id="roomBookButton"><button class="btn-cta-small"><i class="fas fa-bolt"></i> Book</button></a>
+    </div>
+  </nav>
+
+  <main class="container">
+
+    <!-- HERO -->
+    <section class="hero">
+      <h1>Srisailam</h1>
+      <div class="hero-sub">
+        <span><i class="fas fa-mountain"></i> 1,500+ ft, Nallamala Hills</span>
+        <span><i class="fas fa-clock"></i> Darshan: 6:00 AM–3:30 PM &amp; 6:00 PM–10:00 PM</span>
+      </div>
+      <div class="hero-actions">
+        <a href="" target="_blank" id="pujaButton1"><button class="btn-primary"><i class="fas fa-hands-praying"></i> Book Puja / Darshan</button></a>
+        <button class="btn-outline-light" onclick="window.location.href='tel:+911234567899'"><i class="fas fa-phone-alt"></i> Call Expert</button>
+      </div>
+    </section>
+
+    <!-- QUICK INFO -->
+    <div class="card-grid">
+      <div class="info-card"><i class="fas fa-om"></i><span class="label">Jyotirlinga</span><div class="value">Mallikarjuna, 2nd Jyotirlinga</div></div>
+      <div class="info-card"><i class="fas fa-calendar-check"></i><span class="label">Recommended Stay</span><div class="value">2–3 Days</div></div>
+      <div class="info-card"><i class="fas fa-users"></i><span class="label">Annual Visitors</span><div class="value">~1 Crore</div></div>
+      <div class="info-card"><i class="fas fa-road"></i><span class="label">Night Road Closure</span><div class="value">9 PM – 6 AM</div></div>
+      <div class="info-card"><i class="fas fa-water"></i><span class="label">River</span><div class="value">Krishna River</div></div>
+      <div class="info-card"><i class="fas fa-tree"></i><span class="label">Forest Reserve</span><div class="value">Nagarjunasagar–Srisailam</div></div>
+    </div>
+
+    <!-- TEMPLE INFO (with id for nav) -->
+    <h2 id="temple-info" class="section-title"><i class="fas fa-om"></i> Temple Darshan &amp; Tickets</h2>
+    <table class="temple-table">
+      <tr>
+        <td class="icon-cell"><i class="fas fa-sun"></i></td>
+        <td><strong>Morning Darshan</strong><br><span style="color:#5f6c7a; font-size:0.85rem;">Approx. 6:00 AM – 3:30 PM</span></td>
+      </tr>
+      <tr>
+        <td class="icon-cell"><i class="fas fa-moon"></i></td>
+        <td><strong>Evening Darshan</strong><br><span style="color:#5f6c7a; font-size:0.85rem;">Approx. 6:00 PM – 10:00 PM</span></td>
+      </tr>
+      <tr>
+        <td class="icon-cell"><i class="fas fa-ticket-alt"></i></td>
+        <td><strong>Free / General Darshan</strong><br><span style="color:#5f6c7a; font-size:0.85rem;">Free</span></td>
+      </tr>
+      <tr>
+        <td class="icon-cell"><i class="fas fa-ticket-alt"></i></td>
+        <td><strong>Seeghra Darshan</strong><br><span style="color:#5f6c7a; font-size:0.85rem;">₹150</span></td>
+      </tr>
+      <tr>
+        <td class="icon-cell"><i class="fas fa-ticket-alt"></i></td>
+        <td><strong>Athi Seeghra Darshan</strong><br><span style="color:#5f6c7a; font-size:0.85rem;">₹300</span></td>
+      </tr>
+      <tr>
+        <td class="icon-cell"><i class="fas fa-ticket-alt"></i></td>
+        <td><strong>Sparsha Darshan</strong><br><span style="color:#5f6c7a; font-size:0.85rem;">₹500</span></td>
+      </tr>
+      <tr>
+        <td class="icon-cell"><i class="fas fa-info-circle"></i></td>
+        <td><span style="color:#5f6c7a; font-size:0.82rem;">Timings can change depending on sevas, festivals and special temple arrangements.</span></td>
+      </tr>
+    </table>
+
+    <!-- PUJA / AARTI BOOKING -->
+    <div style="background: var(--orange-light); border-left: 6px solid var(--orange); padding: 20px 22px; border-radius: var(--radius-sm); margin: 12px 0 24px;">
+      <h3 style="color:#7b3f00;"><i class="fas fa-hands-praying" style="color:var(--orange)"></i> Puja, Darshan &amp; VIP Ticket Booking</h3>
+      <p style="margin: 4px 0 10px;">Book Seeghra, Athi Seeghra or Sparsha Darshan directly through YatraDham. Avoid queues, get priority access.</p>
+      <a href="" target="_blank" id="pujaButton"><button class="btn-primary" style="padding: 12px 28px;"><i class="fas fa-ticket-alt"></i> Book Now</button></a>
+    </div>
+
+    <!-- REACHED EARLY -->
+    <h2 class="section-title"><i class="fas fa-clock"></i> Reached before check-in?</h2>
+    <p style="margin-bottom: 12px; color: #2d3f4f;">Instead of waiting, visit these nearby spiritual and scenic spots:</p>
+    <div class="early-grid">
+      <div class="early-card">
+        <i class="fas fa-om"></i>
+        <h4>Sakshi Ganapati Temple</h4>
+        <p>One of the popular temples near the main Srisailam temple area.</p>
+        <div class="dist"><i class="fas fa-location-dot"></i> ~2–3 km · 10–15 min</div>
+      </div>
+      <div class="early-card">
+        <i class="fas fa-tint"></i>
+        <h4>Paladhara Panchadhara</h4>
+        <p>Known for its spiritual importance and natural water streams.</p>
+        <div class="dist"><i class="fas fa-location-dot"></i> ~3–4 km · 10–15 min</div>
+      </div>
+      <div class="early-card">
+        <i class="fas fa-mountain"></i>
+        <h4>Shikhareswara Swamy Temple / Sikharam</h4>
+        <p>Beautiful views of the Nallamala Hills and surrounding areas.</p>
+        <div class="dist"><i class="fas fa-location-dot"></i> ~5 km · 15–20 min</div>
+      </div>
+      <div class="early-card">
+        <i class="fas fa-water"></i>
+        <h4>Pathala Ganga</h4>
+        <p>Scenic riverside spot on the Krishna, close to the temple town.</p>
+        <div class="dist"><i class="fas fa-location-dot"></i> ~2–3 km · 10–15 min*</div>
+      </div>
+      <div class="early-card">
+        <i class="fas fa-water"></i>
+        <h4>Srisailam Dam</h4>
+        <p>Popular for scenic views and boating on the Krishna River.</p>
+        <div class="dist"><i class="fas fa-location-dot"></i> ~13–14 km · 15–25 min</div>
+      </div>
+      <div class="early-card">
+        <i class="fas fa-paw"></i>
+        <h4>Nallamala Forest / Tiger Reserve</h4>
+        <p>Nature, greenery and wildlife experiences around Srisailam.</p>
+        <div class="dist"><i class="fas fa-location-dot"></i> Surrounding Srisailam</div>
+      </div>
+    </div>
+
+    <!-- TRANSPORTATION (with id for nav) -->
+    <h2 id="transport" class="section-title"><i class="fas fa-bus"></i> Transportation</h2>
+    <div class="two-col">
+      <div class="transport-card">
+        <h4><i class="fas fa-bus"></i> Hyderabad → Srisailam (TGSRTC)</h4>
+        <div class="transport-row"><span>First Bus</span><span>2:30 AM</span></div>
+        <div class="transport-row"><span>Last Bus</span><span>10:15–10:25 PM</span></div>
+        <div class="transport-row"><span>Journey Time</span><span>~5.5–6 hrs</span></div>
+        <div class="transport-row"><span>Fare</span><span>₹389 onwards</span></div>
+      </div>
+      <div class="transport-card">
+        <h4><i class="fas fa-bus"></i> Srisailam → Hyderabad (TGSRTC)</h4>
+        <div class="transport-row"><span>First Bus</span><span>~4:20 AM</span></div>
+        <div class="transport-row"><span>Last Bus</span><span>~8:00 PM</span></div>
+        <div class="transport-row"><span>Journey Time</span><span>~4–5 hrs</span></div>
+        <div class="transport-row"><span>Fare</span><span>₹335 onwards</span></div>
+      </div>
+      <div class="transport-card">
+        <h4><i class="fas fa-bus"></i> Markapur → Srisailam (APSRTC)</h4>
+        <div class="transport-row"><span>First Bus</span><span>~9:15 AM</span></div>
+        <div class="transport-row"><span>Last Bus</span><span>~5:15–5:50 PM</span></div>
+        <div class="transport-row"><span>Journey Time</span><span>~2.5–3 hrs</span></div>
+        <div class="transport-row"><span>Fare</span><span>₹185 onwards</span></div>
+      </div>
+      <div class="transport-card">
+        <h4><i class="fas fa-train"></i> Train &amp; Car</h4>
+        <div class="transport-row"><span>Markapur Rd Station → Srisailam</span><span>~85 km / ~3 hrs</span></div>
+        <div class="transport-row"><span>Hyderabad Airport → Srisailam</span><span>~200+ km / ~4–5+ hrs</span></div>
+        <div class="transport-row"><span>Hyderabad (Car/Cab) → Srisailam</span><span>~210–220 km / ~4–5 hrs</span></div>
+      </div>
+      <div class="notice-box">
+        <i class="fas fa-triangle-exclamation"></i> The Nallamala/Srisailam forest road is closed for general traffic <strong>9:00 PM – 6:00 AM</strong>. Plan road travel during daytime — during festivals, local authorities may add further restrictions.
+      </div>
+    </div>
+
+    <!-- FOOD (with id for nav) -->
+    <h2 id="food" class="section-title"><i class="fas fa-utensils"></i> Food &amp; Restaurants</h2>
+    <div class="card-grid card-grid-food" style="grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));">
+      <div class="food-card"><i class="fas fa-bowl-rice"></i><h4>Andhra Thali Hotels</h4><p>Traditional Andhra meals near the temple complex</p></div>
+      <div class="food-card"><i class="fas fa-leaf"></i><h4>Pure Veg &amp; Prasadam</h4><p>Temple prasadam counters and pure-veg dining</p></div>
+      <div class="food-card"><i class="fas fa-mug-hot"></i><h4>Tiffin &amp; Tea Stalls</h4><p>Quick breakfast spots along the main road</p></div>
+      <div class="food-card"><i class="fas fa-store"></i><h4>Local Dhabas</h4><p>Highway dhabas en route from Hyderabad/Markapur</p></div>
+    </div>
+    <p class="package-highlight" id="freeFood" style="font-size:0.9rem; color:#475569; margin-top:-8px; margin-bottom:16px;">Free temple annadanam (prasadam) is available for pilgrims at designated hours — check current timings at the temple counters.</p>
+
+    <br>
+    <br>
+    <!-- YATRADHAM PACKAGE HIGHLIGHT -->
+    <div class="package-highlight" id="packages-container">
+      <h3><i class="fas fa-route" style="color:var(--primary)"></i> YatraDham Srisailam Package</h3>
+      <p>2–3 day pilgrimage package covering:</p>
+      <ul>
+        <li>Mallikarjuna Swamy &amp; Bhramaramba Devi Temple darshan (with Seeghra option)</li>
+        <li>Srisailam Dam &amp; Krishna River boating</li>
+        <li>Sakshi Ganapati, Paladhara Panchadhara &amp; Shikhareswara viewpoint</li>
+        <li>Cab, stay and daytime travel planned around the 9 PM–6 AM forest road closure</li>
+      </ul>
+      <p style="margin-top:10px;"><span class="price-chip">Custom pricing on request</span></p>
+    </div>
+
+    <!-- FESTIVALS -->
+    <h2 class="section-title"><i class="fas fa-calendar-star"></i> Festivals &amp; Best Time to Visit</h2>
+    <div class="festival-grid">
+      <div class="festival-card">
+        <span>FEBRUARY / MARCH</span>
+        <h4>Maha Shivaratri</h4>
+        <p>Srisailam's biggest festival — expect very high rush.</p>
+      </div>
+      <div class="festival-card">
+        <span>MARCH / APRIL</span>
+        <h4>Ugadi</h4>
+        <p>Telugu New Year with special religious celebrations at the temple.</p>
+      </div>
+      <div class="festival-card">
+        <span>SEPTEMBER / OCTOBER</span>
+        <h4>Navratri / Dasara</h4>
+        <p>Special celebrations at the Bhramaramba Devi Temple.</p>
+      </div>
+      <div class="festival-card">
+        <span>OCTOBER / NOVEMBER</span>
+        <h4>Karthika Masam</h4>
+        <p>Important month for Shiva devotees, with Deepotsavam and higher pilgrim activity.</p>
+      </div>
+      <div class="festival-card">
+        <span>~FEBRUARY / MARCH</span>
+        <h4>Brahmotsavam</h4>
+        <p>Annual celebrations of Mallikarjuna Swamy and Bhramaramba Devi.</p>
+      </div>
+    </div>
+
+    <!-- FAQ (with id for nav) -->
+    <h2 id="faq" class="section-title"><i class="fas fa-question-circle"></i> FAQs</h2>
+    <div class="faq-item">
+      <div class="faq-question" onclick="toggleFaq(this)"><span>What to do if I reach Srisailam early?</span><i class="fas fa-chevron-down"></i></div>
+      <div class="faq-answer">Visit nearby spots like Sakshi Ganapati Temple, Paladhara Panchadhara or the Shikhareswara viewpoint while you wait for check-in or darshan.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-question" onclick="toggleFaq(this)"><span>Is the Srisailam road open at night?</span><i class="fas fa-chevron-down"></i></div>
+      <div class="faq-answer">No, the Nallamala forest road is generally closed to traffic between 9:00 PM and 6:00 AM. Plan your travel during daytime, and check for extra restrictions during festivals.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-question" onclick="toggleFaq(this)"><span>What are the darshan ticket options?</span><i class="fas fa-chevron-down"></i></div>
+      <div class="faq-answer">Free/General Darshan is available at no cost. Paid options are Seeghra Darshan (₹150), Athi Seeghra Darshan (₹300) and Sparsha Darshan (₹500).</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-question" onclick="toggleFaq(this)"><span>When is the best time to visit Srisailam?</span><i class="fas fa-chevron-down"></i></div>
+      <div class="faq-answer">Karthika Masam (Oct/Nov) and Maha Shivaratri (Feb/Mar) are the most significant periods, though Shivaratri sees very heavy crowds. For a quieter visit, plan outside major festival dates.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-question" onclick="toggleFaq(this)"><span>How do I get to Srisailam from Hyderabad?</span><i class="fas fa-chevron-down"></i></div>
+      <div class="faq-answer">TGSRTC buses run from Hyderabad (~210–220 km, 5–6 hrs) starting 2:30 AM, or by car/cab in about 4–5 hrs. YatraDham can arrange cab and package bookings — contact +91 1234567891.</div>
+    </div>
+
+    <!-- YATRADHAM SERVICES (with id for nav) -->
+    <h2 id="services" class="section-title"><i class="fas fa-hand-holding-heart"></i> YatraDham Services</h2>
+    <div class="service-grid">
+      <div class="service-card"><i class="fas fa-hotel"></i> Dharamshala</div>
+      <div class="service-card"><i class="fas fa-bed"></i> Hotel Booking</div>
+      <div class="service-card"><i class="fas fa-car"></i> Cab Booking</div>
+      <div class="service-card"><i class="fas fa-route"></i> Tour Package</div>
+      <div class="service-card"><i class="fas fa-pray"></i> Puja Booking</div>
+      <div class="service-card"><i class="fas fa-users"></i> Group Booking</div>
+    </div>
+
+    <!-- CONTACT / BOOKING -->
+    <div id="contact" style="margin-top: 32px; padding: 24px 22px; background: white; border-radius: var(--radius-sm); box-shadow: var(--shadow);">
+      <h3><i class="fas fa-phone-alt" style="color:var(--primary)"></i> Book Puja / VIP Darshan</h3>
+      <p><strong>📞 +91 9664842287</strong> (Call / WhatsApp for puja, darshan, VIP)</p>
+      <p style="margin-top: 8px;"><strong>🚐 YatraDham Cab &amp; Package</strong><br> <strong>📞 +91 1234567891</strong></p>
+      <div style="display: flex; gap: 12px; margin-top: 12px; flex-wrap: wrap;">
+        <button class="btn-book" onclick="window.location.href='tel:+911234567899'"><i class="fas fa-phone"></i> Call Puja Desk</button>
+        <button class="btn-whatsapp" onclick="window.location.href='https:/wa.me/911234567899'"><i class="fab fa-whatsapp"></i> WhatsApp</button>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- STICKY BOTTOM -->
+  <div class="sticky-bottom">
+    <div> <strong>YatraDham</strong> · Srisailam</div>
+    <div class="btn-group">
+      <a href="" target="_blank" id="roomBookButton1"><button class="btn-book"><i class="fas fa-hands-praying"></i> Book</button></a>
+      <button class="btn-whatsapp" onclick="window.location.href='https:/wa.me/911234567899'"><i class="fab fa-whatsapp"></i> WhatsApp</button>
+      <button class="btn-call" onclick="window.location.href='tel:+911234567899'"><i class="fas fa-phone"></i> Call</button>
+    </div>
+  </div>
+
+  <!-- BACK TO TOP -->
+  <button class="back-top" id="backTopBtn" onclick="window.scrollTo({top:0,behavior:'smooth'})"><i class="fas fa-chevron-up"></i></button>
+
+  <script>
+    // FAQ toggle
+    function toggleFaq(el) {
+      const answer = el.nextElementSibling;
+      const icon = el.querySelector('i.fa-chevron-down');
+      if (answer.classList.contains('show')) {
+        answer.classList.remove('show');
+        icon.style.transform = 'rotate(0deg)';
+      } else {
+        document.querySelectorAll('.faq-answer').forEach(a => a.classList.remove('show'));
+        document.querySelectorAll('.faq-question i.fa-chevron-down').forEach(i => i.style.transform = 'rotate(0deg)');
+        answer.classList.add('show');
+        icon.style.transform = 'rotate(180deg)';
+      }
+    }
+
+    // Back to top
+    window.addEventListener('scroll', function() {
+      const btn = document.getElementById('backTopBtn');
+      if (window.scrollY > 400) btn.classList.add('show');
+      else btn.classList.remove('show');
+    });
+
+    // Smooth highlight for nav links
+    document.querySelectorAll('.nav-links a').forEach(link => {
+      link.addEventListener('click', function(e) {
+        const targetId = this.getAttribute('href');
+        if (targetId && targetId.startsWith('#')) {
+          e.preventDefault();
+          const target = document.querySelector(targetId);
+          if (target) {
+            target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          }
+        }
+      });
+    });
+  </script>
+</body>
+</html>
